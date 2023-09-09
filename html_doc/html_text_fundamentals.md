@@ -1,5 +1,22 @@
 ※ 모든 기본 내용은 mdn web docs 사이트에서 참고했습니다 ※
 
+[목차]<br/>
+
+- [기본적인 것: 제목과 단락](#기본적인-것-제목과-단락)<br/>
+  - [구조화된 계층을 구현하기](#구조화된-계층을-구현하기)<br/>
+  - [왜 우리는 구조가 필요할까요?](#왜-우리는-구조가-필요할까요)<br/>
+  - [우리는 왜 Semantic을 필요로 할까?](#우리는-왜-semantic을-필요로-할까)<br/>
+- [Lists](#lists)<br/>
+  - [Unordered Lists](#unordered-lists)<br/>
+  - [Ordered Lists](#ordered-lists)<br/>
+  - [리스트 내부의 리스트(Nesting Lists)](#list-내부의-listnesting-lists)<br/>
+- [중요와 강조](#중요와-강조)<br/>
+  - [중요(Emphasis)](#중요emphasis)<br/>
+  - [강조(Strong importance)](#강조strong-importance)<br/>
+  - [Italic, Bold, Underline](#italic-bold-underline)<br/>
+
+<br/>
+
 # HTML text fundamentals
 
 > [묙표] HTML의 주요 작업 중 하는 browser가 텍스트를 올바르게 표시할 수 있도록 텍스트 구조의 의미(semantics)를 제공하는 것입니다. <b>이번 글에서는 HTML을 사용하여 제목 및 단락을 추가하고, 단어를 강조하고, 목록을 만드는 등의 방법으로 텍스트 page를 구성하는 방법을 설명합니다.</b>

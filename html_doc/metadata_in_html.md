@@ -1,5 +1,19 @@
 ※ 모든 기본 내용은 mdn web docs 사이트에서 참고했습니다 ※
 
+[목차]<br/>
+
+- [HTML head란?](#html-head란)<br/>
+- [제목 달기](#제목-달기)<br/>
+- [MetaData: <meta> 요소](#metadata-meta-요소) <br/>
+  - [문서의 character 인코딩을 특정하기](#문서의-character-인코딩을-특정하기) <br/>
+  - [저자와 설명을 추가](#저자와-설명을-추가) <br/>
+  - [Other types of metadata](#other-types-of-metadata) <br/>
+- [맞춤 아이콘 추가하기](#맞춤-아이콘-추가하기) <br/>
+- [HTML에 CSS와 JavaScript 적용하기](#html에-css와-javascript-적용하기) <br/>
+- [문서의 기본 언어 설정](#문서의-기본-언어-설정) <br/>
+
+<br/>
+
 # head 태그에는 무엇이 있을까? HTML의 MetaData
 
 > [묙표] HTML의 head는 page를 열 때 web browser에 표시되지 않습니다. head는 `<title>` 같은 page나 CSS의 링크, favicon, 다른 metadata 포함합니다. <b>이 글에서는 위 내용들과 그 이상에 대해 다룰 것입니다.</b>

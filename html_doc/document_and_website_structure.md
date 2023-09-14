@@ -52,7 +52,7 @@ webpage는 서로 꽤 다르게 보일 수 있지만 page가 전체 화면 비�
 
 ### Non-semantic wrappers
 
-때로는 일부 항목을 그룹화하거나 일부 content를 wrapping 하기 위한 semantic 의미 요소를 찾을 수 없는 상황에 직면하게 될 것입니다. 때로는 요소 세트를 그룹화하여 일부 CSS 또는 JavaScript를 사용하여 모든 요소에 단일 entity로 영향을 미치기를 원할 수도 있습니다. 이와 같은 경우를 위해 HTML은 `<div>` 및 `<span>` 요소를 제공합니다. 쉽게 targeting 할 수 있도록 일종의 레이블을 제공하려면 적절한 속성 class와 함께 이러한 항목을 사용하는 것이 좋습니다.
+때로는 일부 항목을 그룹화하거나 일부 content를 wrapping 하기 위한 semantic 의미 요소를 찾을 수 없는 상황에 직면하게 될 것입니다. 때로는 요소 세트를 그룹화하여 일부 CSS 또는 JavaScript를 사용하여 모든 요소에 단일 entity로 영향을 미치기를 원할 수도 있습니다. 이와 같은 경우를 위해 HTML은 `<div>` 및 `<span>` 요소를 제공합니다. 쉽게 targeting 할 수 있도록 일종의 레이블을 제공하려면 적절한 속성 <b style="color: #F2B705;">class</b>와 함께 이러한 항목을 사용하는 것이 좋습니다.
 
 ### 줄 바꿈 및 수평선
 

@@ -43,10 +43,10 @@ page를 열 때 browser에 표시되는 `<body>` 요소와 다르게, head의 �
 
 ### 저자와 설명을 추가
 
-많은 `<meta>` 요소가 name과 content 속성을 가집니다.
+많은 `<meta>` 요소가 <b style="color: #F2B705;">name</b>과 <b style="color: #F2B705;">content</b> 속성을 가집니다.
 
-- name은 meta 요소가 어떤 정보의 형태를 갖고 있는지 알려줍니다.
-- content는 실제 metadata의 content입니다.
+- <b style="color: #F2B705;">name</b>은 meta 요소가 어떤 정보의 형태를 갖고 있는지 알려줍니다.
+- <b style="color: #F2B705;">content</b>는 실제 metadata의 content입니다.
 
 ```html
 <meta name="author" content="Chris Mills" />
@@ -107,7 +107,7 @@ and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
 
 ## 문서의 기본 언어 설정
 
-page의 언어를 설정할 수 있습니다. 이 작업은 HTML tag에 lang 속성을 추가하여 수행할 수 있습니다.
+page의 언어를 설정할 수 있습니다. 이 작업은 HTML tag에 <b style="color: #F2B705;">lang</b> 속성을 추가하여 수행할 수 있습니다.
 
 ```html
 <html lang="ko"></html>

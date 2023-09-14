@@ -42,7 +42,7 @@
 
 <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-attribute-small.png" alt="HTML 요소 속성">
 
-- 속성은 실제 content로 표시되길 원하지 않는 추가적인 정보를 담고 있습니다.
+- <b style="color: orange;">속성</b>은 실제 content로 표시되길 원하지 않는 추가적인 정보를 담고 있습니다.
 
 ### Nesing Elements
 
@@ -76,7 +76,7 @@ conent가 없는 요소
 
 - `<!DOCTYPE html>`<br/>: 필수 서문, doctype은 자동 오류 확인이나 다른 유용한 것을 의미하는 좋은 HTML로 인정받기 위해 HTML page가 따라야 할 일련의 규칙으로의 연결 통로로써 작동하는 것을 의미합니다.
 
-- `<html></html>`<br/>: 루트(root) 요소. 문서의 고유 언어를 설정하는 lang 속성을 포함합니다.
+- `<html></html>`<br/>: 루트(root) 요소. 문서의 고유 언어를 설정하는 <b style="color: #F2B705;">lang</b> 속성을 포함합니다.
 
 - `<head></head>`<br/>: page를 조회하는 사람들에게 보여주는 content가 아닌 개발자가 HTML page에 포함하고 싶어하는 모든 재료들을 위한 container 역할을 합니다. keywords와 검색 결과에 표시되길 원하는 page 설명, content를 꾸미기 위한 CSS, 문자 집합 선언 등과 같은 것들을 포함합니다.
 

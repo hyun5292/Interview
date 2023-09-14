@@ -30,7 +30,7 @@
 
 ## Link의 구조
 
-기본 link는 텍스트 또는 기타 내용을 `<a>` 요소 안에 감싸고 web 주소를 포함하는 href 속성을 사용하여 생성됩니다.
+기본 link는 텍스트 또는 기타 내용을 `<a>` 요소 안에 감싸고 web 주소를 포함하는 <b style="color: #F2B705;">href</b> 속성을 사용하여 생성됩니다.
 
 ```html
 <p>
@@ -85,7 +85,7 @@ Block Level 요소들도 link로 바꿀 수 있습니다.
 
 ### title 속성에 부가적인 정보를 더하기
 
-link에 추가할 수 있는 또 다른 속성은 title 입니다. title은 page에 포함된 정보 또는 website에 주의해야 할 사항 등 link에 대한 추가 정보를 포함하고 있습니다.
+link에 추가할 수 있는 또 다른 속성은 <b style="color: #F2B705;">title</b> 입니다. <b style="color: #F2B705;">title</b>은 page에 포함된 정보 또는 website에 주의해야 할 사항 등 link에 대한 추가 정보를 포함하고 있습니다.
 
 ```html
 <p>
@@ -106,13 +106,13 @@ link에 추가할 수 있는 또 다른 속성은 title 입니다. title은 page
 	Naver Page</a>.
 </p>
 
-> [참고] link 제목은 hover에만 표시되므로 키보드 컨트롤이나 터치 스크린을 사용하여 webpage를 탐색하는 사용자는 제목 정보에 액세스하는 데 어려움을 겪습니다. title의 정보가 page의 사용헤 있어서 정말로 중요하다면, 해당하는 정보를 일반 텍스트로 넣어줌으로써 모든 사용자가 접근할 수 있는 방식으로 표시해야 합니다.
+> [참고] link 제목은 hover에만 표시되므로 키보드 컨트롤이나 터치 스크린을 사용하여 webpage를 탐색하는 사용자는 제목 정보에 액세스하는 데 어려움을 겪습니다. <b style="color: #F2B705;">title</b>의 정보가 page의 사용헤 있어서 정말로 중요하다면, 해당하는 정보를 일반 텍스트로 넣어줌으로써 모든 사용자가 접근할 수 있는 방식으로 표시해야 합니다.
 
 <br/>
 
 ## URL과 path에 대한 기본 지침
 
-URL은 단순히 무언가가 web 상의 어디에 위치하는지 결정하는 하나의 텍스트 문자열입니다. URL은 파일들을 찾기 위해 path에 이용합니다. path는 당신이 관심 있어하는 파일이 파일 시스템 어디에 있는지 구체적으로 명시합니다.
+URL은 단순히 무언가가 web 상의 어디에 위치하는지 결정하는 하나의 텍스트 문자열입니다. URL은 파일들을 찾기 위해 <b style="color: #F2B705;">path</b>에 이용합니다. <b style="color: #F2B705;">path</b>는 당신이 관심 있어하는 파일이 파일 시스템 어디에 있는지 구체적으로 명시합니다.
 
 <img src="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks/simple-directory.png" alt="디렉토리 구조" />
 
@@ -150,7 +150,7 @@ URL은 단순히 무언가가 web 상의 어디에 위치하는지 결정하는 
 
 ### 문서 조각
 
-문서 상단이 아닌 HTML 문서 내부의 특정 부분(document fragments)에 연결할 수 있습니다. 그러기 위해 먼저 여러분은 연결하고 싶은 태그에 id 속성을 넣어주어야 합니다. 일반적으로 아래와 같이 특정 헤드라인에 연결하는 것이 타당합니다.
+문서 상단이 아닌 HTML 문서 내부의 특정 부분(document fragments)에 연결할 수 있습니다. 그러기 위해 먼저 여러분은 연결하고 싶은 태그에 <b style="color: #F2B705;">id</b> 속성을 넣어주어야 합니다. 일반적으로 아래와 같이 특정 헤드라인에 연결하는 것이 타당합니다.
 
 ```html
 <h2 id="Mailing_address">Mailing 주소</h2>
@@ -176,12 +176,12 @@ URL은 단순히 무언가가 web 상의 어디에 위치하는지 결정하는 
 
 ### 절대 URL과 상대 URL
 
-- 절대 URL
+- <b style="color: orange;">절대 URL</b><br/>
   : protocol과 domain name을 포함한, web에서 정의된 절대적인 위치를 가리킵니다.
 
   - 어디에 사용되든 항상 같은 장소를 가리킵니다.
 
-- 상대 URL
+- <b style="color: orange;">상대 URL</b><br/>
   : 연결되어 있는 파일로부터 상대적인 위치를 가리킵니다.
   - 파일의 실제 위치가 어디냐에 따라 다른 장소를 가리킵니다.
 
@@ -201,11 +201,11 @@ URL은 단순히 무언가가 web 상의 어디에 위치하는지 결정하는 
 
   - 동일한 텍스트의 여러 복사본이 서로 다른 장소에 연결되는 경우를 최소화합니다. "여기 클릭"이라는 label이 붙어있는 link 목록이 있는 경우, screen reader 사용자에게 문제가 발생할 수 있습니다.
 
-- 비 HTML resource 연결 시 명확한 표식 남기기
+- 비 HTML resource 연결 시 명확한 표식 남기기<br/>
   : 다운로드 될 resource, 스트리밍 될 resource 또는 다른 잠재적으로 예기치 않은 효과에 연결할 경우, 혼동을 줄이기 위해 명확한 문구를 추가해야 합니다.
 
-- 다운로드 연결 시 download 속성 사용
-  : browser에서 열지 않고 다운로드할 resource에 연결하는 경우 download 속성을 사용하여 기본 저장 파일 이동을 제공할 수 있습니다.
+- 다운로드 연결 시 <b style="color: #F2B705;">download</b> 속성 사용<br/>
+  : browser에서 열지 않고 다운로드할 resource에 연결하는 경우 <b style="color: #F2B705;">download </b>속성을 사용하여 기본 저장 파일 이동을 제공할 수 있습니다.
 
 <br/>
 

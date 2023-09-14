@@ -60,7 +60,7 @@
 
 ### 인용 부호(Blockquotes)
 
-블록 수준 content section이 다른 곳에서 인용된 경우 이를 표시하기 위해 `<blockquote>` 태그로 이를 wrapping하고 cite 속성에 인용 소스를 가리키는 URL을 포함해야 합니다.
+블록 수준 content section이 다른 곳에서 인용된 경우 이를 표시하기 위해 `<blockquote>` 태그로 이를 wrapping하고 <b style="color: #F2B705;">cite</b> 속성에 인용 소스를 가리키는 URL을 포함해야 합니다.
 
 ```html
 <p>Here is a blockquote:</p>
@@ -111,7 +111,7 @@
 
 ### 인용(Citations)
 
-cite 속성은 유용해 보이지만, browser, screen readers 등등 많은 것에 되지 않습니다. JavaScript나 CSS를 사용하지 않는 이상 browser에 cite 요소를 보여줄 방법이 없습니다. page에 인용문의 출처를 표시하려면 link나 다른 적절한 방법을 통해 표시해야 합니다.
+<b style="color: #F2B705;">cite</b> 속성은 유용해 보이지만, browser, screen readers 등등 많은 것에 되지 않습니다. JavaScript나 CSS를 사용하지 않는 이상 browser에 cite 요소를 보여줄 방법이 없습니다. page에 인용문의 출처를 표시하려면 link나 다른 적절한 방법을 통해 표시해야 합니다.
 
 ```html
 <p>

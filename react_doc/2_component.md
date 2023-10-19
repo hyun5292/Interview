@@ -18,6 +18,8 @@
 
 React는 markup, CSS 그리고 JavaScript를 재사용 가능한 UI 요소인 사용자 정의 Component로 결합할 수 있게 해줍니다.
 
+<br/>
+
 ### Component 정의하기
 
 전통적으로 webpage를 만들 때, 개발자들은 content를 markup하고 JavaScript를 사용해 상호작용을 더했습니다. React는 같은 기술을 사용하면서도 상호작용을 최우선으로 생각합니다: <b style="color: orange;">React Component</b>는 markup을 뿌릴 수 있는 JavaScript 함수입니다.
@@ -63,6 +65,8 @@ export default Example;
 
 3. Component를 사용하고자 하는 파일에 <b>Import</b>합니다.
 
+<br/>
+
 ### 같은 파일에서 여러 Component들을 Import와 Export 하기
 
 한 파일에서 여러 Component들을 생성하고 사용할 수 있습니다. <b>한 파일에는 default export를 한 개만 작성할 수 있지만 다양한 이름의 export들은 가질 수 있습니다.</b>
@@ -92,3 +96,5 @@ import { ExampleB } from "./Example.js";
 ```
 
 <br/>
+
+[목차로 이동](#react-document-정리)

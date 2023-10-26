@@ -2,7 +2,12 @@
 
 [목차]<br/>
 
-- []()<br/>
+- [타입 추론 (Types by Inference)](#타입-추론-types-by-inference)<br/>
+- [타입 정의하기 (Defining Types)](#타입-정의하기-defining-types)<br/>
+- [타입 구성 (Composing Types)](#타입-구성-composing-types)<br/>
+  - [유니언 (Unions)](#유니언-unions)<br/>
+  - [제네릭 (Generics)](#제네릭-generics)<br/>
+- [구조적 타입 시스템 (Structural Type System)](#구조적-타입-시스템-structural-type-system)<br/>
 
 <br/>
 
